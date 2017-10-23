@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* Fonts */
+a, button, blockquote, caption,
+div, embed, figure, figcaption,
+h1, h2, h3, h4, h5, h6,
+header, footer, section, aside, article,
+p, span, ol, ul, li {
+  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
+}

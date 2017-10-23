@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* Font Styles */
+a, button, blockquote, caption,
+div, embed, figure, figcaption,
+h1, h2, h3, h4, h5, h6,
+header, footer, section, aside, article,
+p, span, ol, ul, li {
+  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
+  color: #2d3c49;
+  font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin: 0 0 0 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #02b3e4;
+}
+.all-caps {
+  text-transform: uppercase;
+}
+.section-title {
+  color: #7d97ad;
+}
+
+
+/* Layout */
+header {
+  display: block;
+  height: auto;
+  overflow: hidden;
+  margin: 25px 0px;
+}
+header h1 {
+  margin-right: 3px;
+  font-weight: 300;
+  letter-spacing: -3px;
+}
+header h3 {
+  letter-spacing: -0.5px;
+}
+
+.hero-banner img {
+  margin-top: 25px;
+  max-width: 100%;
+}
+
+section {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+section h2 {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 10px;
+  margin: 35px 0 12px 0;
+}
+
+article {
+  text-align: center;
+}
+article a::after {
+  content: "\25e5";
+  font-size: 12px;
+}
+article a:hover::after {
+  font-size: 16px;
+}
+article img {
+  width: 100%
+}
+article h3 {
+  margin: 7px 0 2px 0;
+}
+article span {
+  display: inline-block;
+}
+
+/* Other */
+hr {
+  border: none;
+  background: #7d97ad;
+  height: 5px;
+}
+
+
+/* Transitions */
+a, button, blockquote, caption,
+div, embed, figure, figcaption,
+h1, h2, h3, h4, h5, h6,
+header, footer, section, aside, article,
+p, span, ol, ul, li {
+  -webkit-transition: background-color 500ms ease-out 1s;
+  -moz-transition: background-color 500ms ease-out 1s;
+  -o-transition: background-color 500ms ease-out 1s;
+  transition: background-color 500ms ease-out 1s;
+}
