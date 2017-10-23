@@ -91,12 +91,13 @@ hr {
 
 /* Transitions */
 a, button, blockquote, caption,
-div, embed, figure, figcaption,
+div, embed, figure, figcaption, img,
 h1, h2, h3, h4, h5, h6,
 header, footer, section, aside, article,
-p, span, ol, ul, li {
-  -webkit-transition: background-color 500ms ease-out 1s;
-  -moz-transition: background-color 500ms ease-out 1s;
-  -o-transition: background-color 500ms ease-out 1s;
-  transition: background-color 500ms ease-out 1s;
+p, span, ol, ul, li,
+a::after {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
