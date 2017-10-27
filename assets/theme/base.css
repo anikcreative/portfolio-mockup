@@ -77,8 +77,9 @@ article img {
 article h3 {
   margin: 7px 0 2px 0;
 }
-article span {
+article p {
   display: inline-block;
+  margin: 0;
 }
 
 /* Other */
